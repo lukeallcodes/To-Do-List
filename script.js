@@ -54,10 +54,4 @@ createListButton.addEventListener('click', () => {
   listNameInput.value = '';
 });
 
-leftArrowButton.addEventListener('click', () => {
-  listContainer.scrollLeft -= 100; // Move container to the left by 100 pixels
-});
 
-rightArrowButton.addEventListener('click', () => {
-  listContainer.scrollLeft += 100; // Move container to the right by 100 pixels
-});
